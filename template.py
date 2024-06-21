@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from helper.utils import Save_fig
+from plot_utils import Save_fig
 
 # Coordinates of the points
 points = [(0, 0.6561), (1, 0.2916), (2, 0.0486), (3, 0.0036), (4, 0.0001)]
@@ -55,7 +55,7 @@ ax.annotate('0', xy=(0, 0), xytext=(-10, -10), textcoords='offset points', ha='c
 # Add grid lines
 # ax.grid(True)
 
-Save_fig(fig, "PMF.eps")
+# Save_fig(fig, "template.eps")
 
 # Display the plot
-# plt.show()
+plt.show()
